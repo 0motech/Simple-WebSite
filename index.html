@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Ibrahim | Full-Stack Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav aria-label="Main navigation">
+        <h1>Mohamed Ibrahim</h1>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main-content">
+
+    <!-- HOME -->
+    <section id="home" aria-labelledby="home-title">
+        <div class="home-text">
+            <h1 id="home-title">Welcome To My Portfolio</h1>
+
+            <p>
+                I’m a Full-Stack Developer passionate about building fast, scalable,
+                and user-friendly web applications.
+            </p>
+
+            
+            <button class="home-buttons" type="button" aria-label="View projects section">
+                Projects
+            </button>
+
+            <button class="home-buttons" type="button" aria-label="Visit my LinkedIn profile">
+                LinkedIn
+            </button>
+        </div>
+
+        <section class="home-image" aria-hidden="true">
+            <div class="image-card">
+                <img
+                    src="images/WhatsApp Image 2026-02-01 at 1.53.45 PM.jpeg"
+                    alt="Illustration of a web developer working on a laptop"
+                    width="800" height="600"
+                >
+            </div>
+        </section>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" aria-labelledby="about-title">
+        <section id="inner-about" class="container">
+            <h2 id="about-title">About Me</h2>
+
+            <p>
+                I’m a Full-Stack Developer with a passion for building clean and efficient
+                web applications.
+            </p>
+
+            <p>
+                My main tools include JavaScript, React, Node.js, and modern databases.
+            </p>
+
+            <p>
+                I’m always eager to learn new technologies and improve my skills by working
+                on real-world projects.
+            </p>
+        </section>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+
+        <section class="project-card" aria-labelledby="project-1-title">
+            <section class="project-text">
+                <h3 id="project-1-title">Project Name</h3>
+
+                <p>
+                    Sample project description explaining the purpose and main features.
+                </p>
+
+                <button type="button" aria-label="View project details">
+                    View Project
+                </button>
+            </section>
+
+            <section class="project-image" width="800" height="600">
+                <img
+                    src="images/generation-f1204438-c84c-4872-846d-40ac40a52a68.png"
+                    alt="Screenshot of the project interface"
+                >
+            </section>
+        </section>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title" class="visually-hidden">Contact</h2>
+
+        <form action="" method="post" aria-label="Contact form">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button class="home-buttons" type="submit">
+                Send Message
+            </button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>Copyright © Mohamed Ibrahim 2026</p>
+</footer>
+
+</body>
+</html>
